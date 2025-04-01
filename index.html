@@ -31,7 +31,7 @@
         <section id="home" class="text-center mb-16">
             <h2 class="text-3xl font-semibold text-blue-600 mb-4">Welcome to ScratchURL</h2>
             <p class="text-gray-700">ScratchURL Is A Website That Gives You Helpful Links To Pages In The Scratch Website</p>
-             <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-4">Learn More</button>
+             <button onclick="findlink()" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-4">Learn More</button>
         </section>
 
         <section id="about" class="text-center mb-16 bg-white rounded-lg shadow-md p-6">
@@ -82,4 +82,8 @@
         <p>© 2024 My Website. All rights reserved.</p>
     </footer>
 </body>
+<script>
+function findlink() {
+    window.location.href = 'links.html';
+</script>
 </html>
